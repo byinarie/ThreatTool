@@ -67,4 +67,4 @@ def scan_file(payload, config):
 
     # make a request to Hybrid Analysis to upload the file hash
     hybrid_analysis_url = "https://www.hybrid-analysis.com/api/v2/quick-scan"
-    headers = {"user-agent": "Falcon Sandbox", "api-key": hybrid_analysis_api
+    headers = {"user-agent": "Falcon Sandbox", "api-key": hybrid_analysis_api_key
